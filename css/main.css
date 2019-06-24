@@ -221,6 +221,9 @@ body{
         width: 100%;
         left: 0;
     }
+    .slider-wrap ul{
+        display: flex;
+    }
 }
 @media screen and (max-width: 767px) {
     .slider-wrap .bx-controls{
@@ -262,8 +265,5 @@ body{
     .slider-inform{
         font-size: 19px;
         font-size: 5.9vw;
-    }
-    .slider-wrap ul{
-        display: flex;
     }
 }
